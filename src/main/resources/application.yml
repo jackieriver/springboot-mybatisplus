@@ -1,12 +1,14 @@
 #app
 server:
     port: 8080
+    context-path: mybatisplus
+
 
 #spring
 spring:
-  devtools:
-    restart:
-      enabled: false
+  #devtools:
+  #  restart:
+   #   enabled: false
 
   # H2 DATABASE CONFIG
   datasource:
@@ -19,10 +21,6 @@ spring:
    # platform: h2
     initialize: true
     continue-on-error: true
-  h2:
-    console:
-      enabled: true
-      path: /console
 
 #mybatis
 mybatis-plus:

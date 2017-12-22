@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestRest {
     Logger log = LoggerFactory.getLogger(TestRest.class);
 
-    @RequestMapping("jenkins")
+    @RequestMapping("testjenkins")
     public String testJenkins(){
         log.info("Hello Jenkins");
         return "Hello Jenkins";

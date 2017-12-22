@@ -1,5 +1,5 @@
-com\river\service\impl\UserServiceImpl.class
 com\river\pojo\User.class
 com\river\SMApplication.class
 com\river\mapper\UserMapper.class
+com\river\service\impl\UserServiceImpl.class
 com\river\service\UserService.class

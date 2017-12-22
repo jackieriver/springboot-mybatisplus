@@ -25,7 +25,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         ew.where("age", "nan").orderBy("id", false);
         String sqlSegment = ew.getSqlSegment();
         System.out.println("ew:"+sqlSegment);
-        return userMapper.selectUsers(sqlSegment);
+        return userMapper.selectUsers(ew);
     }
 
 
